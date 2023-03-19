@@ -1,33 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My personal portfolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Arjun B K | Personal Data Analysis Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about-me">
+        <h1>About Me</h1>
+        <p>Hello, my name is Arjun B K and I am a sophomore at Skidmore College. I am passionate about data analysis and enjoy working with datasets to find insights and patterns.</p>
+        <p>My skills include:</p>
+        <ul>
+          <li>Data cleaning and preprocessing</li>
+          <li>Data visualization</li>
+          <li>Statistical analysis</li>
+          <li>Machine learning</li>
+        </ul>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <h3>Project 1</h3>
+            <p>Description of project 1.</p>
+            <a href="#">View project</a>
+          </li>
+          <li>
+            <h3>Project 2</h3>
+            <p>Description of project 2.</p>
+            <a href="#">View project</a>
+          </li>
+          <li>
+            <h3>Project 3</h3>
+            <p>Description of project 3.</p>
+            <a href="#">View project</a>
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
 
-    <style>
-        
-        div{
-            width: 35vw;
-            margin: 0px auto;
-        }
-        div h3, div p{
-            text-align: center;
-        }
-        img{
-            width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
-   <div>
-    <h3 class="">Hey I am arjun BK</h3>
-    <p class="">I am an aspring, Data Anaylst :)</p>
-   </div>
-    <div>
-        <img src="/bk.jpeg" alt="">
-    </div>
-</body>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
