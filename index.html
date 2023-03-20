@@ -1,70 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Arjun B K | Personal Data Analysis Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="about-me">
-        <h1>About Me</h1>
-        <p>Hello, my name is Arjun B K and I am a sophomore at Skidmore College. I am passionate about data analysis and enjoy working with datasets to find insights and patterns.</p>
-        <p>My skills include:</p>
-        <ul>
-          <li>Data cleaning and preprocessing</li>
-          <li>Data visualization</li>
-          <li>Statistical analysis</li>
-          <li>Machine learning</li>
-        </ul>
-      </section>
-      <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-          <li>
-            <h3>Project 1</h3>
-            <p>Description of project 1.</p>
-            <a href="#">View project</a>
-          </li>
-          <li>
-            <h3>Project 2</h3>
-            <p>Description of project 2.</p>
-            <a href="#">View project</a>
-          </li>
-          <li>
-            <h3>Project 3</h3>
-            <p>Description of project 3.</p>
-            <a href="#">View project</a>
-          </li>
-        </ul>
-      </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <form>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
+<head>
+  <meta charset="UTF-8">
+  <title>Arjun B K - Personal Data Analysis Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+  <!-- First Page -->
+  <div class="page" id="first-page">
+    <ul class="nav-menu">
+      <li><a href="#about-me">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resource">Resources</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="page-content">
+      <h1 class="page-title">Arjun B K</h1>
+      <a href="#about-me" class="page-link">Personal Portfolio</a>
+    </div>
+  </div>
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
+  <!-- About Page -->
+  <div class="page" id="about-me">
+    <h2 class="section-title">About Me</h2>
+    <img src="prof.jpeg" alt="Profile Picture" class="profile-picture">
+    <p class="section-content">I am Arjun B K. I come from Nepal. I am currently a sophomore at Skidmore College pursuing Mathematics and Economics with Statistics Minor. I have deep interest in Finance, Technology, and Data. I have 
+        proficiency Python, R, Microsoft Applications, HTML, CSS. I am currently learning SQL, expanding more knowledge on quant finance. 
+    </p>
+  </div>
 
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" required></textarea>
+  <!-- Projects Page -->
+  <div class="page" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <!-- List your projects here -->
+    <div class="project">
+      <h3 class="project-title">Education in Nepal</h3>
+      <p class="project-description">This is a website that allows you to see who is working in making the education in Nepal better. I am still working on it. I will be able to put the website out by May.</p>
+    </div>
+    <!-- Add more projects as needed -->
+  </div>
 
-          <button type="submit">Send</button>
-        </form>
-      </section>
-    </main>
-    <script src="script.js"></script>
-  </body>
+  <!-- Resources Page -->
+  <div class="page" id="resource">
+    <h2 class="section-title">Resources</h2>
+    <!-- List your resources here -->
+    <ul class="resource-list">
+        <li><a href="https://www.youtube.com/c/MarkRober" target="_blank">Mark Rober</a></li>
+        <li><a href="https://waitbutwhy.com/homepage" target="_blank">Wait But Why</a></li>
+        <li><a href="https://www.investopedia.com/" target="_blank">Investopedia</a></li>
+      </ul>
+  </div>
+
+  <!-- Contact Page -->
+  <div class="page" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <!-- Add your contact information -->
+    <p>Email: <a href="mailto:your-email@example.com">arjunbk@skidmore.edu</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/arjunbk2025/" target="_blank"><i class="fab fa-linkedin" style="font-size: 30px;"></i></a></p>
+    <p>GitHub: <a href="https://github.com/arjunbk03" target="_blank"><i class="fab fa-github" style="font-size: 30px;"></i></a></p>
+
+</div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
 </html>
