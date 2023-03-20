@@ -1,7 +1,8 @@
 /* General Styles */
-body {
+body, *, html {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
   }
   
@@ -9,6 +10,8 @@ body {
   #first-page {
     background-image: url('mountain.jpeg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -21,12 +24,16 @@ body {
     margin-top: -500px;
   }
   .profile-picture {
-    width: 3000px;
-    height: 3000px;
+    width: 20rem;
+    height: 20rem;
     border-radius: 90%;
     margin: 30px auto;
     display: block;
     object-fit: cover;
+    background-image: url("prof.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   
@@ -72,6 +79,7 @@ body {
     letter-spacing: 10px;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    margin: 0px a;
   }
   
   .page-link:hover {
@@ -108,13 +116,13 @@ body {
   }
   
   /* About Page */
-  .profile-picture {
+  /* .profile-picture {
     max-width: 25%;
     height: auto;
     border-radius: 50%;
     margin: 20px auto;
     display: block;
-  }
+  } */
   
   .section-content {
     font-size: 20px;
